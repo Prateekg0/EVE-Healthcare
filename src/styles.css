@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', sans-serif;
+  --font-display: 'Manrope', sans-serif;
+  --color-eve-ink: #203027;
+  --color-eve-green: #304a38;
+  --color-eve-muted: #778078;
+  --color-eve-paper: #fffefa;
+}
+
+@layer base {
+  body {
+    @apply m-0 min-w-[320px] bg-[#f8f8f5] font-sans text-[#212c25] antialiased;
+  }
+
+  button,
+  input {
+    @apply font-sans;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  a {
+    @apply cursor-pointer text-inherit no-underline;
+  }
+}
+
+/* Small custom artwork details that are not useful as general utility classes. */
+.art-circle {
+  box-shadow: inset 0 0 0 15px #ecf1e9;
+}
+
+.art-cross {
+  transform: rotate(45deg);
+}
+
+.art-leaf {
+  transform: rotate(-35deg);
+}
+
+.modal {
+  animation: modal-enter .18s ease-out;
+}
+
+.toast {
+  animation: toast-enter .2s ease-out;
+}
+
+@keyframes modal-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toast-enter {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}

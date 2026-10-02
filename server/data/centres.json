@@ -1,0 +1,136 @@
+[
+  {
+    "_id": "66f010000000000000000001",
+    "name": "EVE Health · Indiranagar",
+    "location": "Indiranagar, Bengaluru",
+    "address": "100 Feet Road, Bengaluru, Karnataka 560038",
+    "rating": 4.9,
+    "hours": "7:00 AM – 8:00 PM",
+    "tests": [
+      {
+        "_id": "66f020000000000000000001",
+        "name": "Complete Blood Count",
+        "category": "Blood",
+        "description": "A comprehensive look at your overall health.",
+        "duration": "10 min",
+        "price": 499
+      },
+      {
+        "_id": "66f020000000000000000002",
+        "name": "Thyroid Profile",
+        "category": "Blood",
+        "description": "T3, T4 and TSH levels in one simple draw.",
+        "duration": "10 min",
+        "price": 799
+      },
+      {
+        "_id": "66f020000000000000000003",
+        "name": "Vitamin D & B12",
+        "category": "Wellness",
+        "description": "Check two essentials for energy and immunity.",
+        "duration": "10 min",
+        "price": 1199
+      },
+      {
+        "_id": "66f020000000000000000004",
+        "name": "Lipid Profile",
+        "category": "Heart",
+        "description": "Understand your heart health with a full lipid panel.",
+        "duration": "10 min",
+        "price": 699
+      },
+      {
+        "_id": "66f020000000000000000005",
+        "name": "HbA1c",
+        "category": "Diabetes",
+        "description": "Three-month average blood sugar assessment.",
+        "duration": "10 min",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "_id": "66f010000000000000000002",
+    "name": "EVE Health · Koramangala",
+    "location": "Koramangala, Bengaluru",
+    "address": "80 Feet Road, Koramangala 4th Block, Bengaluru 560034",
+    "rating": 4.8,
+    "hours": "7:00 AM – 7:00 PM",
+    "tests": [
+      {
+        "_id": "66f020000000000000000006",
+        "name": "Complete Blood Count",
+        "category": "Blood",
+        "description": "A comprehensive look at your overall health.",
+        "duration": "10 min",
+        "price": 499
+      },
+      {
+        "_id": "66f020000000000000000007",
+        "name": "Lipid Profile",
+        "category": "Heart",
+        "description": "Understand your heart health with a full lipid panel.",
+        "duration": "10 min",
+        "price": 699
+      },
+      {
+        "_id": "66f020000000000000000008",
+        "name": "Liver Function Test",
+        "category": "Wellness",
+        "description": "A detailed look at your liver health.",
+        "duration": "15 min",
+        "price": 899
+      },
+      {
+        "_id": "66f020000000000000000009",
+        "name": "HbA1c",
+        "category": "Diabetes",
+        "description": "Three-month average blood sugar assessment.",
+        "duration": "10 min",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "_id": "66f010000000000000000003",
+    "name": "EVE Health · Whitefield",
+    "location": "Whitefield, Bengaluru",
+    "address": "ITPL Main Road, Whitefield, Bengaluru 560066",
+    "rating": 4.9,
+    "hours": "6:30 AM – 8:00 PM",
+    "tests": [
+      {
+        "_id": "66f020000000000000000010",
+        "name": "Thyroid Profile",
+        "category": "Blood",
+        "description": "T3, T4 and TSH levels in one simple draw.",
+        "duration": "10 min",
+        "price": 799
+      },
+      {
+        "_id": "66f020000000000000000011",
+        "name": "Vitamin D & B12",
+        "category": "Wellness",
+        "description": "Check two essentials for energy and immunity.",
+        "duration": "10 min",
+        "price": 1199
+      },
+      {
+        "_id": "66f020000000000000000012",
+        "name": "Lipid Profile",
+        "category": "Heart",
+        "description": "Understand your heart health with a full lipid panel.",
+        "duration": "10 min",
+        "price": 699
+      },
+      {
+        "_id": "66f020000000000000000013",
+        "name": "Fasting Glucose",
+        "category": "Diabetes",
+        "description": "A clear snapshot of your blood sugar levels.",
+        "duration": "10 min",
+        "price": 299
+      }
+    ]
+  }
+]
